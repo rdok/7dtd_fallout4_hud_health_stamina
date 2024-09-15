@@ -1,0 +1,36 @@
+<fallout4-hud-health-stamina>
+
+    <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Health']"/>
+    <insertAfter
+            xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Stealth']">
+        <rect name="HealthBar" width="270" pos="125,-100" controller="HUDStatBar" stat_type="Health"
+              visible="{statvisible}">
+            <filledsprite name="BarContent" color="[green]" height="9" fill="{statfill}"/>
+
+            <sprite name="LeftBorder" color="[green]" width="2" height="10"/>
+            <sprite name="BottomBorder" color="[green]" height="2" pos="0,-8"/>
+            <sprite name="RightBorder" color="[green]" width="2" height="10" pos="268,0"/>
+
+            <sprite name="BottomBorderShadow" color="[black]" height="1" pos="0,-10" type="sliced"/>
+            <sprite name="RightBorderShadow" color="[black]" width="1" height="12" pos="270,0"/>
+        </rect>
+    </insertAfter>
+
+    <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Stamina']"/>
+
+    <insertAfter
+            xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Health']">
+        <rect width="270" height="46" pos="1425,-100" controller="HUDStatBar" stat_type="Stamina"
+              visible="{statvisible}">
+            <filledsprite fillinvert="true" name="BarContent" color="[green]" height="9" fill="{statfill}"/>
+
+            <sprite name="LeftBorder" color="[green]" width="2" height="10"/>
+            <sprite name="BottomBorder" color="[green]" height="2" pos="0,-8"/>
+            <sprite name="RightBorder" color="[green]" width="2" height="10" pos="268,0"/>
+
+            <sprite name="BottomBorderShadow" color="[black]" height="1" pos="0,-10" type="sliced"/>
+            <sprite name="RightBorderShadow" color="[black]" width="1" height="12" pos="270,0"/>
+        </rect>
+    </insertAfter>
+
+</fallout4-hud-health-stamina>
