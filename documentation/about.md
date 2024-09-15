@@ -1,5 +1,5 @@
 # 7 Days to Die Mod - Fallout 4 HUD Health Stamina
-[![nexus-mods-collection-immersive-hud](https://img.shields.io/badge/Collection-Immersive%20HUD%20-bf4848?style=flat-square&logo=nexusmods)](https://next.nexusmods.com/7daystodie/collections/epfqzi) [![nexus-mods-page](https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods)](https://www.nexusmods.com/7daystodie/mods/6164) [![github-repository](https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github)](https://github.com/rdok/7dtd_fallout4_hud_health_stamina)
+[![nexus-mods-collection-minimalistic](https://img.shields.io/badge/Collection-Minimalistic%20-bf4848?style=flat-square&logo=nexusmods)](https://next.nexusmods.com/7daystodie/collections/epfqzi) [![nexus-mods-page](https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods)](https://www.nexusmods.com/7daystodie/mods/6164) [![github-repository](https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github)](https://github.com/rdok/7dtd_fallout4_hud_health_stamina)
 
 >  Replaces the health and stamina UI elements with a Fallout 4-style design.
  
@@ -19,3 +19,6 @@
 - Customizable thresholds for when the hiding should happen.
   - In game using gears
   - Manually by modifying ModSettings.xml
+
+## Vision
+Final long term vision: [FallUI - HUD](https://www.nexusmods.com/fallout4/mods/51813)

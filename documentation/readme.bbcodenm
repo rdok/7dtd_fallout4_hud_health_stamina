@@ -1,5 +1,5 @@
 [size=6]7 Days to Die Mod - Fallout 4 HUD Health Stamina[/size]
-[url=https://next.nexusmods.com/7daystodie/collections/epfqzi][img]https://img.shields.io/badge/Collection-Immersive%20HUD%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/7dtd_fallout4_hud_health_stamina][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
+[url=https://next.nexusmods.com/7daystodie/collections/epfqzi][img]https://img.shields.io/badge/Collection-Minimalistic%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/7dtd_fallout4_hud_health_stamina][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
 
 [quote]
  Replaces the health and stamina UI elements with a Fallout 4-style design.
@@ -25,3 +25,6 @@
 [*] In game using gears
 [*] Manually by modifying ModSettings.xml
 [/list][/list]
+[size=5]Vision[/size]
+Final long term vision: [url=https://www.nexusmods.com/fallout4/mods/51813]FallUI - HUD[/url]
+
