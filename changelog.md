@@ -2,4 +2,4 @@
 
 #### 1.0.0 15-Sep-24
 
-- feat: Replace health & stamina UI elements with those from Fallout 4
+- feat: Replaces the health and stamina UI elements with a Fallout 4-style design.

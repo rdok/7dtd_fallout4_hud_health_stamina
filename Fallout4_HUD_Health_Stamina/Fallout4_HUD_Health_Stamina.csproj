@@ -8,12 +8,12 @@
         <ProjectGuid>{90A1B09C-9B78-4C0B-88B1-4928F311D376}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Fallout4HudStealthStamina</RootNamespace>
+        <RootNamespace>Fallout4HudHealthStamina</RootNamespace>
         <AssemblyName>Fallout4_HUD_Health_Stamina</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-        <ModName>Fallout4HudStealthStamina</ModName>
+        <ModName>Fallout4HudHealthStamina</ModName>
         <ModDescription>Replace the health and stamina bars with ones similar to Fallout 4</ModDescription>
         <ModVersion>1.0.0</ModVersion>
         <ModId>6164</ModId>
@@ -44,22 +44,26 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Properties\AssemblyInfo.cs"/> 
-    </ItemGroup>
-
-    <ItemGroup>
         <Content Include="Config\**\*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
         <Content Include="ModInfo.xml">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content> 
+        </Content>
     </ItemGroup>
 
     <Target Name="BeforeBuild">
         <RemoveDir Directories="$(OutputPath)"/>
     </Target>
-    
+
+    <PropertyGroup>
+        <SkipCompile>true</SkipCompile>
+    </PropertyGroup>
+
+    <Target Name="CoreCompile" Condition="'$(SkipCompile)' == 'false'">
+        <!-- Override default compile behavior -->
+    </Target>
+
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 
     <Target Name="AfterBuild" Condition=" '$(Configuration)' != 'CI' ">
@@ -71,7 +75,9 @@
         <XmlPoke XmlInputPath="$(OutputPath)\ModInfo.xml" Query="/xml/Website/@value"
                  Value="https://www.nexusmods.com/7daystodie/mods/$(ModId)"/>
 
-        <Exec
+        <Delete Files="$(OutputPath)$(AssemblyName).dll"/>
+        
+        <Exec 
                 Condition=" '$(Configuration)' == 'Release' "
                 Command="npm run generate_readme"
                 WorkingDirectory="$(MSBuildProjectDirectory)\.."

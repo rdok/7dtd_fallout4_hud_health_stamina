@@ -1,13 +1,27 @@
-[size=6]7 Days to Die Mod - Fallout 4 HUD Stealth Stamina[/size]
+[size=6]7 Days to Die Mod - Fallout 4 HUD Health Stamina[/size]
 [url=https://next.nexusmods.com/7daystodie/collections/epfqzi][img]https://img.shields.io/badge/Collection-Immersive%20HUD%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/7dtd_fallout4_hud_health_stamina][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
 
 [quote]
-Replace health & stamina UI elements with those from Fallout 4
+ Replaces the health and stamina UI elements with a Fallout 4-style design.
 [/quote]
 [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://raw.githubusercontent.com/rdok/7dtd_fallout4_hud_health_stamina/main/documentation/showcase.jpg[/img][/url]
 
 [size=5]Features[/size]
 [list]
-[*] Replace health & stamina UI elements with those from Fallout 4
-[*] Game Version: 1.0. Install with [url=https://www.nexusmods.com/about/vortex/]Vortex[/url].
-[/list]
+[*] Replaces the health and stamina UI elements with a Fallout 4-style design.
+[*] Compatible with Game Version 1.0. Install using [url=https://www.nexusmods.com/about/vortex/]Vortex[/url].
+[*] [url=https://www.nexusmods.com/7daystodie/mods/5640]Dot Crosshair[/url] is recommended for aligning the color scheme.
+[*] You can customize the color by editing the [b]windows.xml[/b] file.
+[list]
+[*] In-game color settings may be supported in future updates.
+[/list][/list]
+[size=5]Backlog[/size]
+[list]
+[*] Compatability with Steel UI
+[*] Dynamic health bar: hide when health is greater than 75%
+[*] Dynamic Stamina bar: hide when health is greater than 75%
+[*] Customizable thresholds for when the hiding should happen.
+[list]
+[*] In game using gears
+[*] Manually by modifying ModSettings.xml
+[/list][/list]
