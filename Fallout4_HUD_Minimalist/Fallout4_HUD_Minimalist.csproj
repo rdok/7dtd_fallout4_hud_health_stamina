@@ -15,7 +15,7 @@
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <ModName>Fallout4HudMinimalist</ModName>
         <ModDescription>Replace the health and stamina bars with Fallout 4-style ones, while hiding non-essential HUD elements for a minimalist approach.</ModDescription>
-        <ModVersion>1.1.0</ModVersion>
+        <ModVersion>1.1.1</ModVersion>
         <ModId>6164</ModId>
         <GamePath>..\..\..\..\Steam\steamapps\common\7 Days To Die</GamePath>
         <ModsPath>..\..\..\..\vortex_udf_7_days_to_die\Mods</ModsPath>

@@ -24,7 +24,7 @@
     <!-- Vanilla changes -->
     <insertAfter
             xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Stealth']">
-        <rect name="HealthBar" width="270" pos="125,-100" controller="HUDStatBar" stat_type="Health"
+        <rect name="HealthBar" width="270" pos="150,-100" controller="HUDStatBar" stat_type="Health"
               visible="{statvisible}">
             <filledsprite name="BarContent" color="[green]" height="9" fill="{statfill}"/>
 
@@ -37,9 +37,9 @@
         </rect>
     </insertAfter>
 
-    <insertAfter
-            xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Health']">
-        <rect width="270" height="46" pos="1425,-100" controller="HUDStatBar" stat_type="Stamina"
+    <insertBefore
+            xpath="/windows/window[@name='HUDRightStatBars']/rect[@controller='CollectedItemList']">
+        <rect width="270" height="46" pos="-425,50" controller="HUDStatBar" stat_type="Stamina"
               visible="{statvisible}">
             <filledsprite fillinvert="true" name="BarContent" color="[green]" height="9" fill="{statfill}"/>
 
@@ -50,6 +50,6 @@
             <sprite name="BottomBorderShadow" color="[black]" height="1" pos="0,-10" type="sliced"/>
             <sprite name="RightBorderShadow" color="[black]" width="1" height="12" pos="270,0"/>
         </rect>
-    </insertAfter>
+    </insertBefore>
 
 </fallout4-hud-minimalist>

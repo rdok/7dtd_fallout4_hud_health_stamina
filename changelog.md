@@ -1,5 +1,8 @@
 ## Changelog
 
+#### 1.1.1 16-Sep-24
+- fix: Attempt to add support for ultra-wide screens.
+
 #### 1.1.0 16-Sep-24
 - feat: Rename project from `Fallout 4 HUD Health Stamina` to `Fallout 4 HUD Minimalist` as the scope of the project was increased to hide an additional HUD elements such as sneak meter.
 - feat: Compatibility patch with Steel UI

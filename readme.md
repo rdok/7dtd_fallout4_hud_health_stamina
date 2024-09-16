@@ -21,7 +21,7 @@
   - [Dot Crosshair](https://www.nexusmods.com/7daystodie/mods/5640) to align with the color scheme.
   - [Immersive Tool Belt](https://www.nexusmods.com/7daystodie/mods/5649) to automatically hide the tool belt when not in use.
   - [No Compass](https://www.nexusmods.com/7daystodie/mods/5528) to hide the compass.
-- Compatible with [Steel UI](https://www.nexusmods.com/7daystodie/mods/5131).
+- Compatible with [Steel UI v1.10.2](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=21850&nmm=1&game_id=1059).
 
 
 ## Backlog
