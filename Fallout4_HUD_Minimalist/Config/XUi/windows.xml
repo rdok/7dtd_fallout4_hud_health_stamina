@@ -1,6 +1,27 @@
-<fallout4-hud-health-stamina>
+<fallout4-hud-minimalist>
 
-    <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Health']"/>
+    <!-- Compatability patch with Steel UI: START -->
+    <setattribute xpath="//rect[@controller='HUDStatBar' and @stat_type='Stealth']" name="force_hide">
+        true
+    </setattribute>
+    <setattribute xpath="//rect[@controller='HUDStatBar' and @stat_type='Food']" name="force_hide">
+        true
+    </setattribute>
+    <setattribute xpath="//rect[@controller='HUDStatBar' and @stat_type='Water']" name="force_hide">
+        true
+    </setattribute> 
+    <!-- Hide XP meter-->
+    <setattribute xpath="//grid[@controller='HUDStatBar' and @arrangement='horizontal']/rect[not(@stat_type)]"
+                  name="force_hide">
+        true
+    </setattribute>
+    <!-- Compatability patch with Steel UI: END -->
+
+    <!-- Greedy search for compatability with vanilla and any other external UI mods. -->
+    <remove xpath="//rect[@controller='HUDStatBar' and @stat_type='Health']"/>
+    <remove xpath="//rect[@controller='HUDStatBar' and @stat_type='Stamina']"/>
+
+    <!-- Vanilla changes -->
     <insertAfter
             xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Stealth']">
         <rect name="HealthBar" width="270" pos="125,-100" controller="HUDStatBar" stat_type="Health"
@@ -15,8 +36,6 @@
             <sprite name="RightBorderShadow" color="[black]" width="1" height="12" pos="270,0"/>
         </rect>
     </insertAfter>
-
-    <remove xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Stamina']"/>
 
     <insertAfter
             xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud']/rect[@controller='HUDStatBar' and @stat_type='Health']">
@@ -33,4 +52,4 @@
         </rect>
     </insertAfter>
 
-</fallout4-hud-health-stamina>
+</fallout4-hud-minimalist>
