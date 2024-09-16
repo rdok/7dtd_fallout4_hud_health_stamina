@@ -15,9 +15,12 @@
 ## Features
 
 - **UI Design:** Replaces the health and stamina UI elements with a Fallout 4-style design.
-- **Additional UI Elements:** Hides additional elements such as the sneak meter for a cleaner interface.
-- **Recommended Crosshair:** It is recommended to use the [Dot Crosshair](https://www.nexusmods.com/7daystodie/mods/5640) to align with the color scheme.
-- **Compatibility:** Compatible with [Steel UI](https://www.nexusmods.com/7daystodie/mods/5131).
+- **Additional UI Elements:** Hides additional elements such as the sneak meter.
+- **Recommended Mods:**
+  - [Dot Crosshair](https://www.nexusmods.com/7daystodie/mods/5640) to align with the color scheme.
+  - [Immersive Tool Belt](https://www.nexusmods.com/7daystodie/mods/5649) to automatically hide the tool belt when not in use.
+  - [No Compass](https://www.nexusmods.com/7daystodie/mods/5528) to hide the compass.
+- Compatible with [Steel UI](https://www.nexusmods.com/7daystodie/mods/5131).
 
 
 ## Backlog
