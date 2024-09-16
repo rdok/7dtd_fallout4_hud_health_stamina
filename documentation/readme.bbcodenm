@@ -1,20 +1,21 @@
-[size=6]7 Days to Die Mod - Fallout 4 HUD Health Stamina[/size]
-[url=https://next.nexusmods.com/7daystodie/collections/epfqzi][img]https://img.shields.io/badge/Collection-Minimalistic%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://img.shields.io/badge/Mod-Fallout4%20HUD%20Health%20Stamina%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/7dtd_fallout4_hud_health_stamina][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
+[size=6]7 Days to Die Mod - Fallout 4 HUD Minimalist[/size]
+[url=https://next.nexusmods.com/7daystodie/collections/epfqzi][img]https://img.shields.io/badge/Collection-Minimalist%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://img.shields.io/badge/Mod-Fallout4%20HUD%20Minimalist%20-bf4848?style=flat-square&logo=nexusmods[/img][/url] [url=https://github.com/rdok/7dtd_fallout4_hud_minimalist][img]https://img.shields.io/badge/Open-Source-2ea44f?style=flat-square&logo=github[/img][/url]
 
 [quote]
- Replaces the health and stamina UI elements with a Fallout 4-style design.
+ Replace the health and stamina bars with Fallout 4-style ones, while hiding non-essential HUD elements for a minimalist approach.
 [/quote]
-[url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://raw.githubusercontent.com/rdok/7dtd_fallout4_hud_health_stamina/main/documentation/showcase.jpg[/img][/url]
+[url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://raw.githubusercontent.com/rdok/7dtd_fallout4_hud_minimalist/main/documentation/showcase.jpg[/img][/url]
 
 [size=5]Features[/size]
 [list]
 [*] Replaces the health and stamina UI elements with a Fallout 4-style design.
-[*] Compatible with Game Version 1.0. Install using [url=https://www.nexusmods.com/about/vortex/]Vortex[/url].
 [*] [url=https://www.nexusmods.com/7daystodie/mods/5640]Dot Crosshair[/url] is recommended for aligning the color scheme.
 [*] You can customize the color by editing the [b]windows.xml[/b] file.
 [list]
-[*] In-game color settings may be supported in future updates.
-[/list][/list]
+[*] In-game color settings may be supported in future updates.[/list]
+[*] Compatible with Game Version 1.0. Install using [url=https://www.nexusmods.com/about/vortex/]Vortex[/url].
+[*] Compatible with [url=https://www.nexusmods.com/7daystodie/mods/5131]Steel UI[/url].
+[/list]
 [size=5]Backlog[/size]
 [list]
 [*] Compatability with Steel UI

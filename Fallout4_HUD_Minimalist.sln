@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fallout4_HUD_Health_Stamina", "Fallout4_HUD_Health_Stamina\Fallout4_HUD_Health_Stamina.csproj", "{90A1B09C-9B78-4C0B-88B1-4928F311D376}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fallout4_HUD_Minimalist", "Fallout4_HUD_Minimalist\Fallout4_HUD_Minimalist.csproj", "{90A1B09C-9B78-4C0B-88B1-4928F311D376}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

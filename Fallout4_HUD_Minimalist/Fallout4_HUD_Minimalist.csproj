@@ -8,14 +8,14 @@
         <ProjectGuid>{90A1B09C-9B78-4C0B-88B1-4928F311D376}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Fallout4HudHealthStamina</RootNamespace>
-        <AssemblyName>Fallout4_HUD_Health_Stamina</AssemblyName>
+        <RootNamespace>Fallout4HudMinimalist</RootNamespace>
+        <AssemblyName>Fallout4_HUD_Minimalist</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-        <ModName>Fallout4HudHealthStamina</ModName>
-        <ModDescription>Replace the health and stamina bars with ones similar to Fallout 4</ModDescription>
-        <ModVersion>1.0.0</ModVersion>
+        <ModName>Fallout4HudMinimalist</ModName>
+        <ModDescription>Replace the health and stamina bars with Fallout 4-style ones, while hiding non-essential HUD elements for a minimalist approach.</ModDescription>
+        <ModVersion>1.1.0</ModVersion>
         <ModId>6164</ModId>
         <GamePath>..\..\..\..\Steam\steamapps\common\7 Days To Die</GamePath>
         <ModsPath>..\..\..\..\vortex_udf_7_days_to_die\Mods</ModsPath>
