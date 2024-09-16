@@ -5,16 +5,22 @@
  
 [![Fallout 4 HUD Minimalist](https://raw.githubusercontent.com/rdok/7dtd_fallout4_hud_minimalist/main/documentation/showcase.jpg)](https://www.nexusmods.com/7daystodie/mods/6164)
 
+## Installation
+
+- **Game Version:** Works with version 1.0 of the game.
+- **Install with Vortex:** Use the [Vortex Mod Manager](https://www.nexusmods.com/about/vortex/) to install the mod easily.
+- **Optional Customization:**
+  - You can also customize the mod by modifying the `windows.xml`
+
 ## Features
-- Replaces the health and stamina UI elements with a Fallout 4-style design.
-- [Dot Crosshair](https://www.nexusmods.com/7daystodie/mods/5640) is recommended for aligning the color scheme.
-- You can customize the color by editing the `windows.xml` file.
-    - In-game color settings may be supported in future updates.
-- Compatible with Game Version 1.0. Install using [Vortex](https://www.nexusmods.com/about/vortex/).
-- Compatible with [Steel UI](https://www.nexusmods.com/7daystodie/mods/5131).
+
+- **UI Design:** Replaces the health and stamina UI elements with a Fallout 4-style design.
+- **Additional UI Elements:** Hides additional elements such as the sneak meter for a cleaner interface.
+- **Recommended Crosshair:** It is recommended to use the [Dot Crosshair](https://www.nexusmods.com/7daystodie/mods/5640) to align with the color scheme.
+- **Compatibility:** Compatible with [Steel UI](https://www.nexusmods.com/7daystodie/mods/5131).
+
 
 ## Backlog
-- Compatability with Steel UI
 - Dynamic health bar: hide when health is greater than 75%
 - Dynamic Stamina bar: hide when health is greater than 75%
 - Customizable thresholds for when the hiding should happen.

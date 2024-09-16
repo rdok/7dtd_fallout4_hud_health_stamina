@@ -6,19 +6,24 @@
 [/quote]
 [url=https://www.nexusmods.com/7daystodie/mods/6164][img]https://raw.githubusercontent.com/rdok/7dtd_fallout4_hud_minimalist/main/documentation/showcase.jpg[/img][/url]
 
+[size=5]Installation[/size]
+[list]
+[*] [b]Game Version:[/b] Works with version 1.0 of the game.
+[*] [b]Install with Vortex:[/b] Use the [url=https://www.nexusmods.com/about/vortex/]Vortex Mod Manager[/url] to install the mod easily.
+[*] [b]Optional Customization:[/b]
+[list]
+[*] You can also customize the mod by modifying the [b]windows.xml[/b]
+[/list][/list]
 [size=5]Features[/size]
 [list]
-[*] Replaces the health and stamina UI elements with a Fallout 4-style design.
-[*] [url=https://www.nexusmods.com/7daystodie/mods/5640]Dot Crosshair[/url] is recommended for aligning the color scheme.
-[*] You can customize the color by editing the [b]windows.xml[/b] file.
-[list]
-[*] In-game color settings may be supported in future updates.[/list]
-[*] Compatible with Game Version 1.0. Install using [url=https://www.nexusmods.com/about/vortex/]Vortex[/url].
-[*] Compatible with [url=https://www.nexusmods.com/7daystodie/mods/5131]Steel UI[/url].
+[*] [b]UI Design:[/b] Replaces the health and stamina UI elements with a Fallout 4-style design.
+[*] [b]Additional UI Elements:[/b] Hides additional elements such as the sneak meter for a cleaner interface.
+[*] [b]Recommended Crosshair:[/b] It is recommended to use the [url=https://www.nexusmods.com/7daystodie/mods/5640]Dot Crosshair[/url] to align with the color scheme.
+[*] [b]Compatibility:[/b] Compatible with [url=https://www.nexusmods.com/7daystodie/mods/5131]Steel UI[/url].
 [/list]
+
 [size=5]Backlog[/size]
 [list]
-[*] Compatability with Steel UI
 [*] Dynamic health bar: hide when health is greater than 75%
 [*] Dynamic Stamina bar: hide when health is greater than 75%
 [*] Customizable thresholds for when the hiding should happen.
